@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "text": "Buy egg",
+      "day": "now",
+      "reminder": true,
+      "id": 1
+    },
+    {
+      "text": "Buy bread",
+      "day": "pop",
+      "reminder": true,
+      "id": 2
+    },
+    {
+      "text": "Call Martina",
+      "day": "aaa",
+      "reminder": false,
+      "id": 3
+    },
+    {
+      "text": "Fixa papper",
+      "day": "igår",
+      "reminder": true,
+      "id": 4
+    }
+  ]
+}
