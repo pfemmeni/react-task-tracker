@@ -86,7 +86,7 @@ function App() {
                         {showAddTask && <AddTask onAdd={addTask}/>}
                         {tasks.length > 0 ? <Tasks tasks={tasks}
                                                    onDelete={deleteTask}
-                                                   onToggle={toggleReminder}/> : "To tasks to show"}
+                                                   onToggle={toggleReminder}/> : "No tasks to show"}
                     </>
                 )}/>
                 <Route path="/about" component={About}/>
@@ -99,5 +99,3 @@ function App() {
 
 export default App;
 
-// https://www.youtube.com/watch?v=w7ejDZ8SWv8
-//1:14:53
